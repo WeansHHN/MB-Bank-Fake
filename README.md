@@ -1,5 +1,3 @@
-# MB-Bank-Fake
-
 # Fake MB Notification App
 
 Đây là một dự án ứng dụng iOS giả lập thông báo của ngân hàng MB, được phát triển với mục đích học tập và thử nghiệm. Ứng dụng này cho phép bạn tạo các thông báo giả về giao dịch ngân hàng.
@@ -16,14 +14,14 @@
 1. Clone repository này về máy tính của bạn:
 
     ```bash
-    git clone https://github.com/yourusername/FakeMBNotificationApp.git
-    cd FakeMBNotificationApp
+    git clone https://github.com/WeansHHN/MB-Bank-Fake.git
+    cd MB-Bank-Fake
     ```
 
 2. Mở dự án bằng Xcode:
 
     ```bash
-    open FakeMBNotificationApp.xcodeproj
+    open MB-Bank-Fake.xcodeproj
     ```
 
 3. Thực hiện các thiết lập cần thiết trong Xcode nếu cần, chẳng hạn như thay đổi team ID hoặc điều chỉnh các cài đặt liên quan đến signing.
@@ -70,5 +68,5 @@ File IPA hoặc TIPA sẽ được tạo trong thư mục gốc của dự án v
 
 Nếu bạn có bất kỳ câu hỏi nào, vui lòng liên hệ:
 
-- Email: your.email@example.com
-- GitHub: [yourusername](https://github.com/yourusername)
+- Website: https://haininh.site
+- GitHub: [WeansHHN](https://github.com/WeansHHN)

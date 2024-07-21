@@ -47,7 +47,7 @@ class NotificationManager: NSObject, ObservableObject, UNUserNotificationCenterD
     }
     
     private func maskAccountNumber(_ account: String) -> String {
-        guard account.count >= 5 else { return account } // kiểm tra số tài khoản đủ dài
+        guard account.count >= 5 else { return account }
         let start = account.prefix(2)
         let end = account.suffix(3)
         return "\(start)xxx\(end)"

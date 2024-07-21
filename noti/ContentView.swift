@@ -32,7 +32,7 @@ struct ContentView: View {
                         TextField("Nội Dung Chuyển Khoản", text: $note)
                     }
                 }
-                .background(Color.white.opacity(0.8)) // Đặt nền trắng có độ trong suốt cho form
+                .background(Color.white.opacity(0.8))
                 .cornerRadius(30)
                 .padding(40)
 
@@ -57,9 +57,9 @@ struct ContentView: View {
                 Spacer()
 
                 Text("MB Bank Fake By Weans(haininh.site)")
-                    .font(.footnote) // Kích thước chữ nhỏ
-                    .foregroundColor(.gray) // Màu chữ, có thể thay đổi tùy ý
-                    .italic() // Chữ nghiêng để chữ mở hơn
+                    .font(.footnote)
+                    .foregroundColor(.gray)
+                    .italic()
                     .padding()
             }
             .onAppear {

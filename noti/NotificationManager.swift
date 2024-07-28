@@ -26,7 +26,7 @@ class NotificationManager: NSObject, ObservableObject, UNUserNotificationCenterD
         let maskedAccount = maskAccountNumber(account)
         
         let content = UNMutableNotificationContent()
-        content.title = "MB Bank"
+        content.title = "Thông báo biến động số dư"
         content.body = "TK \(maskedAccount)|GD: \(amount)VND \(dateString) \(timeString) |SD: \(service)VND|ND: \(note)"
         content.sound = .default
         
